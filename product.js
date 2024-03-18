@@ -20,6 +20,10 @@ var userSchema = {
         type: String,
         required: true,
     },
+    rePassword: {
+        type: String,
+        required: true,
+    },
 };
 
 //Export the model
